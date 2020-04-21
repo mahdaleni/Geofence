@@ -48,7 +48,7 @@ app.init = function () {
 	
     // Mississauga (Buckhorn and Tahoe) Campus
 
-    app.pt = [];
+    app.pt = [0.468416, 101.431187];
     app.pts = [
 	
         
