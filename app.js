@@ -74,7 +74,7 @@ app.init = function () {
     
     
     
-    L.circle([51.508, -0.11], 500, {
+    L.circle([0.528095, 101.472536], 500, {
 		color: 'red',
 		fillColor: '#f03',
 		fillOpacity: 0.5
