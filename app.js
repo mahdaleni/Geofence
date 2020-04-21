@@ -95,6 +95,23 @@ app.init = function () {
         maxZoom: 18
     }).addTo(app.map);
 */
+	
+	
+	
+	
+	
+	
+	   L.circle([0.528095, 101.472536], 500, {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5
+	}).addTo(app.map).bindPopup("I am a circle.");
+	
+	
+	
+	
+	
+	
 
     L.tileLayer('http://{s}.googleapis.com/vt?lyrs=m@174225136&src=apiv3&hl=en-US&x={x}&y={y}&z={z}&s=Galile&style=api%7Csmartmaps', {
         attribution: 'Map data &copy; 2014 Google',
@@ -108,11 +125,7 @@ app.init = function () {
     
     
     
-    L.circle([0.528095, 101.472536], 500, {
-		color: 'red',
-		fillColor: '#f03',
-		fillOpacity: 0.5
-	}).addTo(app.map).bindPopup("I am a circle.");
+  
     
     
     
