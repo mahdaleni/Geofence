@@ -44,7 +44,18 @@ app.init = function () {
 	
 
     // Mississauga (Buckhorn and Tahoe) Campus
-	app.circle = L.circle([33.644631, -70.610453], {radius: 50});
+	
+	app.pt = [0.468416, 101.431187];
+    app.pts = [
+        
+        [0.468416, 101.431187], 
+        [0.468650, 101.426554], 
+        [0.462941, 101.427303], 
+      
+      
+    ];
+	
+    app.map = L.map('map').setView(app.pts, 15);
   
 	
 	
