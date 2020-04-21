@@ -54,18 +54,10 @@ app.init = function () {
       
     ];
 	
-    app.map = L.map('map').setView(app.pt, 13);
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	app.pt = [0.528095, 101.472536];
+		app.pt = [0.528095, 101.472536];
     app.pts = [
         
         [0.528095, 101.472536], 
@@ -76,6 +68,19 @@ app.init = function () {
     ];
 	
     app.map = L.map('map').setView(app.pt, 13);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+   
 	
 	
 	
