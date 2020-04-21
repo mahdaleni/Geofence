@@ -50,15 +50,14 @@ app.init = function () {
 
     app.pt = [0.468416, 101.431187];
     app.pts = [
-	    
-	  
+	
         
        [0.468416, 101.431187], [0.468650, 101.426554], [0.462941, 101.427303],
             
      
     ];
 
-    app.map = L.map('map').setView(app.pt, 15);
+    app.map = L.map('map').setView(app.pt, );
 	
 	
 	
