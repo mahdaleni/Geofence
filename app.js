@@ -57,7 +57,7 @@ app.init = function () {
      
     ];
 
-    app.map = L.map('map').setView(app.pt, );
+    app.map = L.map('map').setView(app.pt, 5);
 	
 	
 	
