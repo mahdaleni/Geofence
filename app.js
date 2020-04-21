@@ -54,7 +54,7 @@ app.init = function () {
       
     ];
 	
-    app.map = L.map('map').setView(app.pt, 15);
+    app.map = L.map('map').setView(app.pt, 13);
 	
 	
 	
@@ -75,7 +75,7 @@ app.init = function () {
       
     ];
 	
-    app.map = L.map('map').setView(app.pt, 1);
+    app.map = L.map('map').setView(app.pt, 13);
 	
 	
 	
@@ -85,11 +85,7 @@ app.init = function () {
 	
 	
 	
-	L.polygon([
-		[51.509, -0.08],
-		[51.503, -0.06],
-		[51.51, -0.047]
-	]).addTo(app.map).bindPopup("I am a polygon.");
+	
 	
 	
 	
