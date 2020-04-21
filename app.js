@@ -63,11 +63,11 @@ app.init = function () {
 	
 	
 	
-	   L.circle([0.528095, 101.472536], 500, {
-		color: 'red',
-		fillColor: '#f03',
-		fillOpacity: 0.5
-	}).addTo(app.map).bindPopup("I am a circle.");
+	L.polygon([
+		[51.509, -0.08],
+		[51.503, -0.06],
+		[51.51, -0.047]
+	]).addTo(app.map).bindPopup("I am a polygon.");
 	
 	
 	
