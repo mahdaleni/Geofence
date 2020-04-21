@@ -45,10 +45,29 @@ app.init = function () {
 
     // Mississauga (Buckhorn and Tahoe) Campus
 
-    app.pt = [13.082680, 80.270718], [0.468416, 101.431187];
+    app.pt = [13.082680, 80.270718];
     app.pts = [
 	    
 	    [[13.082680, 80.270718], [12.971599, 77.594563],[15.828126, 78.037279]],
+        
+     
+            
+     
+    ];
+
+    app.map = L.map('map').setView(app.pt, 15);
+	
+   
+	
+	
+	
+	
+    // Mississauga (Buckhorn and Tahoe) Campus
+
+    app.pt = [0.468416, 101.431187];
+    app.pts = [
+	    
+	  
         
        [[0.468416, 101.431187], [0.468650, 101.426554], [0.462941, 101.427303]]
             
@@ -57,7 +76,6 @@ app.init = function () {
 
     app.map = L.map('map').setView(app.pt, 15);
 	
-   
 	
 	
 	
