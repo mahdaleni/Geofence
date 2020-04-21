@@ -67,6 +67,24 @@ app.init = function () {
         maxZoom: 22,
         subdomains: ['mt0', 'mt1']
     }).addTo(app.map);
+    
+    
+    
+    
+    
+    
+    
+    L.circle([51.508, -0.11], 500, {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5
+	}).addTo(app.map).bindPopup("I am a circle.");
+    
+    
+    
+    
+    
+    
 
     L.control.scale().addTo(app.map);
 
